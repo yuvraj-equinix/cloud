@@ -52,3 +52,8 @@
 
 ![Delete minikube](./screenshots/minikube_delete.png)
 
+## Case study - Spotify
+
+Spotify started using Kubernetes for deploying and managing their services on the cloud. They primarily use GKE for their managed Kubernetes solution on the cloud. When they started out, people that built the cluster were also responsible for managing them. They eventually had to create DevOps team for managing their infrastructure. To increase the productivity of their engineering team and to address frustrations with using `kubectl`, they started using `Backstage`, which is a service catalog which aggregates all data about a service and presents it in a consistent UI. This changes the idea from managing clusters to managing services, which is a more important business unit.
+
+[Reference](https://engineering.atspotify.com/2021/03/designing-a-better-kubernetes-experience-for-developers/)
